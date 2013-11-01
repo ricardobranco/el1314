@@ -13,6 +13,7 @@ grammar eg13Ex1_Gr01;
 lista
 @init  { contador=contaN=soma=somatorio=resultado=maior=ultimo = 0;
          somar = false;
+         subtrair = false;
          crescente = true;
          arr = new ArrayList<Integer>();
        }
