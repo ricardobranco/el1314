@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::SIP.XSLT</keyname>
+        <title>TPC 2 - EXtensible Stylesheet Language Transformations para Submission Information Package</title>
+        <subtitle>Segundo projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-10-14</sdate>
+        <edate>2013-10-21</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>
+            Neste projecto foram desenvolvidas 
+            <acr>
+                <abv>XSLT</abv> 
+                <desc>EXtensible Stylesheet Language Transformations</desc>
+            </acr>    
+            para um 
+            <acr>
+                <abv>SIP</abv>
+                <desc>Submission Information Package</desc>
+            </acr>.
+        </p>
+        <p>
+            <b>XSL</b> ou <b><i>EXtensible Sytlesheet Language</i></b> 
+            é uma linguagem que permite desenvolver transformações 
+            (<acr>
+                <abv>XSLT</abv> 
+                <desc>EXtensible Stylesheet Language Transformations</desc>
+            </acr>) 
+            para ficheiros 
+            <acr>
+                <abv>XML</abv>
+                <desc>Extensible Markup Language</desc>
+            </acr>
+            que nos permita transformá-los de forma a obter outros 
+            <acr>
+                <abv>XML</abv>
+                <desc>Extensible Markup Language</desc>
+            </acr>
+            ou outros objectos tais como páginas
+            <acr>
+                <abv>HTML</abv>
+                <desc>HyperText Markup Language</desc>
+            </acr>
+            como é o caso deste projecto.
+        </p>
+        <p>
+            Para além das 
+            <acr>
+                <abv>XSLT</abv> 
+                <desc>EXtensible Stylesheet Language Transformations</desc>
+            </acr>
+            já referidas, este projecto contempla ainda uma <b><i>Document Type Definition</i></b>, 
+            ou simplesmente <b>DTD</b>, 
+            assim como um 
+            <acr>
+                <abv>XML</abv>
+                <desc>Extensible Markup Language</desc>
+            </acr>
+            onde se aplicam as regras da mesma e que é usado como base deste relatório.
+        </p>
+        <p>
+            De forma a tornar a experiência mais agradável na visualização do resultado das 
+            <acr>
+                <abv>XSLT</abv> 
+                <desc>EXtensible Stylesheet Language Transformations</desc>
+            </acr>
+            foram também inseridas no projecto regras de estilo, através de 
+            <acr>
+                <abv>CSS</abv> 
+                <desc>Cascading Style Sheets</desc>
+            </acr>, 
+            assim como as fotografias dos membros do grupo de trabalho.
+        </p>
+        
+    </abstract>
+    <files>
+        <file path="SIP.dtd" format="DTD" checksum="e64a5965c36937a27ada11030f7d3183">
+            Document Type Definition
+        </file>
+        <file path="SIP.xml" format="XML">
+            Project Record
+        </file>
+        <file path="SIP.xsl" format="XSL">
+            EXtensible Stylesheet Language Transformations
+        </file>
+        <file path="SIP.html" format="HTML">
+            HyperText Markup
+        </file>
+        <file path="style.css" format="CSS">
+            Cascading Style Sheet
+        </file>
+        <file path="andre.jpg" format="JPG">
+            Workteam member photo: Andre Santos
+        </file>
+        <file path="daniel.jpg" format="JPG">
+            Workteam member photo: Daniel Carvalho
+        </file>
+        <file path="ricardo.jpg" format="JPG">
+            Workteam member photo: Ricardo Branco
+        </file>
+    </files>
+</sip>
