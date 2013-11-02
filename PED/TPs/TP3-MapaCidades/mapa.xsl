@@ -9,7 +9,7 @@
     <xsl:template match="/">
         
         <!-- Geração da página de índice --> 
-        <xsl:result-document href="cidades/index.html">
+        <xsl:result-document href="mapa/index.html">
             <h3>Índice de Cidades</h3>
             <ul>
                 <xsl:apply-templates select="//cidades" mode="indice">
@@ -25,23 +25,27 @@
     
     <!-- Página de cidade -->
     <xsl:template match="cidade">
-        <xsl:result-document href="cidades/{@id}.html">
+        <xsl:result-document href="mapa/{@id}.html">
+            <xsl:variable name="c" select="@id"/>
+            
             <h3>
                 <xsl:value-of select="nome"/>
             </h3>
-            <b>Desc.: </b> <xsl:value-of select="descricao"/>
+            <b>Descrição: </b> <xsl:value-of select="descricao"/>
             <br/>
             <b>População: </b> <xsl:value-of select="populacao"/>
             <br/>
-            
-            <hr width="80%" align="center"/>
             <h4>Ligações</h4>
             <ul>
-                <xsl:variable name="c" select="@id"/>
-                <xsl:apply-templates select="/mapa/ligacoes/ligacao[origem/@cidade=$c]"/>
+                <xsl:apply-templates select="/mapa/ligacoes/ligacao[origem/@cidade=$c]" mode="lig_directas"/>
+                <br/>
             </ul>
             
-            <hr width="80%" align="center"/>
+            <h4>Ligações inversas</h4>
+            <ul>
+                <xsl:apply-templates select="/mapa/ligacoes/ligacao[destino/@cidade=$c]" mode="lig_inversas"/>
+                <br/>
+            </ul>            
             <address>
                 [<a href="index.html"> Voltar ao índice</a>]
             </address>
@@ -49,11 +53,22 @@
     </xsl:template>
     
     <!-- Ligações -->
-    <xsl:template match="ligacao">
+    <xsl:template match="ligacao" mode="lig_directas">
         <li>
             <b>Cidade: </b> 
             <a href="{destino/@cidade}.html">
                 <xsl:value-of select="key('cidades', destino/@cidade)/nome"/>
+            </a>
+            <br/>
+            <b>Distância: </b> <xsl:value-of select="distancia"></xsl:value-of>
+            <br/>
+        </li>
+    </xsl:template>
+    <xsl:template match="ligacao" mode="lig_inversas">
+        <li>
+            <b>Cidade: </b> 
+            <a href="{origem/@cidade}.html">
+                <xsl:value-of select="key('cidades', origem/@cidade)/nome"/>
             </a>
             <br/>
             <b>Distância: </b> <xsl:value-of select="distancia"></xsl:value-of>
