@@ -52,8 +52,8 @@
         </acr>.</p>
         
         <p>Como resultado do projecto, podemos encontrar uma página 
-            <xref uri="mapa/index.html">Index.html</xref> com o índice de cidades, e depois uma página para cada cidade identificada com o <b>ID</b>.</p>
-        <p>Na página de cada cidade é apresentada informação relativa ao Nome, Descrição, Ligações Diretas e Ligações inversas.</p>
+            <xref uri="mapa/index.html">Index.html</xref> com o índice de cidades, e depois uma página para cada cidade identificada com o seu <b>ID</b>.</p>
+        <p>Na página de cada cidade é apresentada informação relativa ao nome, descrição, ligações diretas e ligações inversas.</p>
     </abstract>
     <files>
         <file path="SIP.xml" format="XML">
