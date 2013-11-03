@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::TP3</keyname>
+        <title>TP 3 - Mapa de Cidades</title>
+        <subtitle>Terceiro projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-10-28</sdate>
+        <edate>2013-11-04</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>img/andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>img/daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>img/ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>Neste projecto foi desenvolvido uma <acr>
+            <abv>XSLT</abv>
+            <desc>eXtensible Stylesheet Language for Transformation</desc>
+        </acr> para representar um documento <acr>
+            <abv>XML</abv>
+            <desc>eXtensible Markup Language</desc>
+        </acr>, com informação relativa a cidades e às suas ligações, num <i>website</i> em <acr>
+            <abv>HTML</abv>
+            <desc>HyperText Markup Language</desc>
+        </acr>.</p>
+        
+        <p>Como resultado do projecto, podemos encontrar uma página 
+            <xref uri="mapa/index.html">Index.html</xref> com o índice de cidades, e depois uma página para cada cidade identificada com o <b>ID</b>.</p>
+        <p>Na página de cada cidade é apresentada informação relativa ao Nome, Descrição, Ligações Diretas e Ligações inversas.</p>
+    </abstract>
+    <files>
+        <file path="SIP.xml" format="XML">
+            Project Record em XML
+        </file>
+        <file path="SIP.html" format="HTML">
+            Project Record em HTML
+        </file>
+        <file path="css/style.css" format="CSS">
+            Ficheiro de estilo
+        </file>
+        <file path="mapa/index.html" format="HTML">
+            Índice de Cidades
+        </file>
+        <file path="mapa/brg.html" format="HTML">
+            Página de Braga
+        </file>
+        <file path="mapa/bcl.html" format="HTML">
+            Página de Barcelos
+        </file>
+        <file path="mapa/ptl.html" format="HTML">
+            Página de Ponte de Lima
+        </file>
+        <file path="mapa/gmr.html" format="HTML">
+            Página de Guimarães
+        </file>
+        <file path="mapa/fml.html" format="HTML">
+            Página de Famalicão
+        </file>
+        <file path="mapa/prt.html" format="HTML">
+            Página do Porto
+        </file>
+        <file path="mapa/vct.html" format="HTML">
+            Página de Viana do Castelo
+        </file>
+        <file path="img/andre.jpg" format="JPG">
+            Workteam member photo: Andre Santos
+        </file>
+        <file path="img/daniel.jpg" format="JPG">
+            Workteam member photo: Daniel Carvalho
+        </file>
+        <file path="img/ricardo.jpg" format="JPG">
+            Workteam member photo: Ricardo Branco
+        </file>
+    </files>
+</sip>
