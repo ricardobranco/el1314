@@ -57,7 +57,7 @@ elem
     | PAL    { if($PAL.text.equals("soma")) {
                     somar = true;
                     subtrair = false;
-               } else if ($PAL.text.equals("subtrair")) {
+               } else if ($PAL.text.equals("subtrai")) {
                     subtrair = true;
                }
              }

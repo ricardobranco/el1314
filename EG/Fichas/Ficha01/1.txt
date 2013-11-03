@@ -1,0 +1,14 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+LISTA
+1, 2, 300,
+soma, 125, 125,
+ah, ah, ah,
+200,
+subtrai, 150,
+continua, 100, soma
+,
+100, 50,  subtrai, 30, 20
+.
