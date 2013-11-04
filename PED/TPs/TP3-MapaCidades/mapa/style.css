@@ -8,15 +8,15 @@ body {
 h3{
      box-sizing: border-box;
      margin-left: 10%;
-     width: 25%;
+     min-width: 15%;
      height: 140px;
      margin-top: -50px;
      border-radius: 10px;
      background: #FFF;
      text-align: center;
      font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
-     font-size: 50px;
-     padding-top: 60px;
+     font-size: 40px;
+     padding: 60px 15px 0 15px;
      font-weight: normal;
      float: left;
 }

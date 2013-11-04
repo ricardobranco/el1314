@@ -63,7 +63,10 @@
             Project Record em HTML
         </file>
         <file path="css/style.css" format="CSS">
-            Ficheiro de estilo
+            Ficheiro de estilo SIP
+        </file>
+        <file path="mapa/style.css" format="CSS">
+            Ficheiro de estilo Cidades
         </file>
         <file path="mapa/index.html" format="HTML">
             Índice de Cidades

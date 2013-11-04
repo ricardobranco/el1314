@@ -82,7 +82,7 @@
                 <xsl:value-of select="key('cidades', origem/@cidade)/nome"/>
             </a>
             <br/><br/>
-            <center><b>Distância: </b> <xsl:value-of select="distancia"></xsl:value-of></center>
+            <center><b>Distância: </b> <xsl:value-of select="distancia"></xsl:value-of> km</center>
             <br/>
         </li>
     </xsl:template>
