@@ -1,0 +1,19 @@
+FAMILIA FS1:PAI "Nuno Antonio" "Saavedra" 1940-4-1 2010-5-12
+            MAE "Isabel Maria" "Torres Machado"  1950-11-31
+              CASAMENTO "Vilar/Avintes" 1970-11-01
+                FILHO "Ricardo" M 1971-12-3,
+                FILHO "Ana Maria" F 1924-09-09
+                .
+FAMILIA FS2:PAI "Ricardo" "Machado Saavedra" 1971-12-3
+            MAE "Elisa" "Lacerda"  1972-11-31
+              CASAMENTO "Sequeira/Braga" 2000-11-01
+                FILHO "Francisco" M 2001-12-3,
+                FILHO "Joana" F 2003-03-08,
+                FILHO "Lurdes" F 2005-07-05
+.
+FAMILIA FS3:PAI "Joao Maria" "Marques Pinto" 1973-2-13
+            MAE "Ana Maria" "Machado Saavedra"  1974-09-09
+              CASAMENTO  1005-1-01
+                FILHO "sem nome" M 2006-12-6 2006-12-3,
+                FILHO "Marta" F 2007-7-08 ,
+                FILHO "Tiago" M 2005-07-05 .
