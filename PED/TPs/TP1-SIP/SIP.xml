@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PROJRECORD SYSTEM "file:/Users/gerente/university/EL/PED/projects/project-record-xml/SIP.dtd">
+<PROJRECORD>
+    <HEADER>
+        <KEYNAME>EL::PED::SIP.DTP</KEYNAME>
+        <TITLE>TPC 1 - Document Type Definition para Submission Information Package</TITLE>
+        <SUBTITILE>Primeiro projecto para avaliação</SUBTITILE>
+        <COURSE>MEI</COURSE>
+        <SUBJECT>EL</SUBJECT>
+        <BEGINDATE>2013.10.08</BEGINDATE>
+        <ENDDATE>2013.10.14</ENDDATE>
+    </HEADER>
+    <SUPERVISORS>
+        <SUPERVISOR>
+            <NAME>José Carlos Ramalho</NAME>
+            <EMAIL>jcr@di.uminho.pt</EMAIL>
+            <URL>http://www.di.uminho.pt/~cr</URL>
+        </SUPERVISOR>
+    </SUPERVISORS>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME>André Augusto Costa Santos</NAME>
+            <NUMBER>PG25329</NUMBER>
+            <EMAIL>andreccdr@gmail.com</EMAIL>
+        </MEMBER>
+        <MEMBER>
+            <NAME>Daniel Alberto Pinto Carvalho</NAME>
+            <NUMBER>A61008</NUMBER>
+            <EMAIL>edu@danielcarvalho.pt</EMAIL>
+        </MEMBER>
+        <MEMBER>
+            <NAME>Ricardo Jorge Rodrigues Branco</NAME>
+            <NUMBER>PG25339</NUMBER>
+            <EMAIL>28.ricardobranco@gmail.com</EMAIL>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <P>
+            <T> Neste projecto foi desenvolvido uma </T>
+            <ABBRV>
+                <INITIALS>DTD</INITIALS>
+                <DESCRIPTION>Document Type Definition</DESCRIPTION>
+            </ABBRV>
+            <T> para um </T>
+            <ABBRV>
+                <INITIALS>SIP</INITIALS>
+                <DESCRIPTION>Submission Information Package</DESCRIPTION>
+            </ABBRV>
+        </P>
+        <P>
+            <T> Uma </T>
+            <B> Document Type Definition, </B>
+            <T> ou simplesmente </T>
+            <B> DTD </B>
+            <T> , contém as regras que definem quais as tags que podem ser usadas num documento </T>
+            <ABBRV>
+                <INITIALS>XML</INITIALS>
+                <DESCRIPTION>Extensible Markup Language</DESCRIPTION>
+            </ABBRV>
+            <T> e quais os valores válidos. </T>
+        </P>
+        <P>
+            <T> Para além da referida </T>
+            <ABBRV>
+                <INITIALS>DTD</INITIALS>
+                <DESCRIPTION>Document Type Definition</DESCRIPTION>
+            </ABBRV>
+            <T> este projecto comtempla ainda uma instância do mesmo </T>
+            <IT> (Project Record) </IT>
+            <T> em </T>
+            <ABBRV>
+                <INITIALS>XML</INITIALS>
+                <DESCRIPTION>Extensible Markup Language</DESCRIPTION>
+            </ABBRV>
+            <T> . A instância é o próprio relatório do projecto. </T>
+        </P>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE>
+            <LINK>
+                <DESCRIPTION>Document Type Definition</DESCRIPTION>
+                <URL>/SIP.dtd</URL>
+            </LINK>
+            <FORMAT>DTD</FORMAT>
+            <CHECKSUM>94ee8e2734d0f319d7bbe9078f32945d</CHECKSUM>
+        </DELIVERABLE>
+        <DELIVERABLE>
+            <LINK>
+                <DESCRIPTION>Project Record</DESCRIPTION>
+                <URL>/SIP.xml</URL>
+            </LINK>
+            <FORMAT>XML</FORMAT>
+        </DELIVERABLE>
+    </DELIVERABLES>
+</PROJRECORD>
