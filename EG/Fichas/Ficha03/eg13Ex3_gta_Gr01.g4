@@ -39,7 +39,7 @@ linha
 		total+=totalLinha;
 		System.out.println("Total Linha: "+totalLinha);
 	}
-	: refprod '|' u = valunit '|' q = quant  	
+	: refprod '|' valunit '|' quant  	
 	;
 
 refprod : ID ;
