@@ -1,0 +1,11 @@
+STOCK
+p1 | arroz | 1 | 10 .
+p2 | massa | 2 | 5 .
+p3 | carne | 5 | 8 .
+FATURAS f1
+fornecedorum Braga NIF: 123456789 NIB: 123456789012345
+CLIENTE
+clienteum Viana NIF: 987654321
+VENDAS  
+p1 | 2 .
+p2 | 3 .
