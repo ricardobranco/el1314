@@ -1,8 +1,10 @@
 grammar eg13Ex3_gta_Gr01;
 
-faturas	: fatura
-	| faturas fatura
-	;
+@members{
+	int total,totalLinha,unidade,quantidade;
+}
+
+faturas	: fatura+;
 
 fatura : 'FATURAS' cabec 'VENDAS' corpo ;
 
@@ -18,26 +20,38 @@ idclie : nome morada 'NIF:' nif ;
 
 nome : STR ;
 
-nif : STR ;
+nif : INT ;
 
-nib : STR ;
+nib : INT ;
 morada : STR ;
 
-corpo : linha '.'
-      | corpo linha '.'
-      ;
+corpo
+	@init{total=0;}
+	@after{
+		System.out.println("Total: "+total);		
+	}	 
+	: (linha '.')+ ;
 
-linha : refprod '|' valunit '|' quant ;
+linha 
+	@init{totalLinha=0;}
+	@after{
+		totalLinha=unidade*quantidade;
+		total+=totalLinha;
+		System.out.println("Total Linha: "+totalLinha);
+	}
+	: refprod '|' u = valunit '|' q = quant  	
+	;
 
 refprod : ID ;
 
-valunit : INT ;
+valunit : INT {unidade=$INT.int;};
 
-quant : INT ;  
+quant : INT {quantidade=$INT.int;};  
 
-STR: [a-zA-Z]+;
 
 INT : [0-9]+;
+
+STR: [a-zA-Z]+;
 
 ID  :	('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_'|'-')*;
 
