@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::TP4</keyname>
+        <title>TP 4 - Formulário para SIP</title>
+        <subtitle>Quarto projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-11-04</sdate>
+        <edate>2013-11-11</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>img/andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>img/daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>img/ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>Neste projecto foi desenvolvido um formulário para  <acr>
+            <abv>SIP</abv>
+            <desc>Submission Information Package</desc>
+        </acr> que gera um ficheiro <acr>
+            <abv>HTML</abv>
+            <desc>HyperText Markup Language</desc>
+        </acr> com os dados do formulário
+        juntamente com os ficheiros que foram enviados também pelo formulário, recorrendo à linguagem
+        <acr>
+            <abv>PHP</abv>
+            <desc>Hypertext Preprocessor</desc>
+        </acr>.
+    </p>
+    </abstract>
+    <files>
+        <file path="SIP.xml" format="XML">
+            Project Record em XML
+        </file>
+        <file path="SIP.dtd" format="DTD">
+            Document Type Definition
+        </file>
+        <file path="Index.html" format="HTML">
+            Formulário para SIP
+        </file>
+        <file path="form.php" format="PHP">
+            Script parar formulário do SIP
+        </file>
+        <file path="assets/style.css" format="CSS">
+            Stylesheet para formulário
+        </file>
+        <file path="assets/custom.css" format="CSS">
+            Overrrides para Stylesheet do formulário
+        </file>
+        <file path="assets/functions.js" format="CSS">
+            Javascript para formulário
+        </file>
+        <file path="assets/jquery.js" format="CSS">
+            Jquery
+        </file>
+
+    </files>
+</sip>
