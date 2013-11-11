@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário de submissão de SIP</title>
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="stylesheet" type="text/css" href="assets/custom.css">
+<script type="text/javascript" src="assets/jquery.js"></script>
+<script type="text/javascript" src="assets/functions.js"></script>
+</head>
+<body>
+<form class="pure-form pure-form-stacked" method="post" action="form.php" enctype="multipart/form-data">
+  <section class="main-wrapper">
+  <fieldset>
+    <legend>Metadata</legend>
+    <div class="pure-g-r">
+      <div class="pure-u-1-3">
+        <label for="keyname">Keyname</label>
+        <input name="keyname" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="title">Title</label>
+        <input name="title" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="subtitle">Subtitle</label>
+        <input name="subtitle" type="text" placeholder="optional">
+      </div>
+      <div class="pure-u-1-3">
+        <label for="course">Course</label>
+        <input name="course" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="class">Class</label>
+        <input name="class" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+      <div class="pure-u-1-3">
+        <label for="sdate">Start date</label>
+        <input name="sdate" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="edate">End date</label>
+        <input name="edate" type="text" placeholder="optional">
+      </div>
+    </div>
+  </fieldset>
+  <fieldset id="supervisors">
+    <legend>Supervisors <span class="btn-inside">
+    <a id="addSupervisor" class="pure-button pure-button-success pure-button-xsmall">+</a>
+    <a id="rmSupervisor" class="pure-button pure-button-error pure-button-xsmall">-</a>
+    </span>
+    </legend>
+    <div class="pure-g-r">
+      <div class="pure-u-1-3">
+        <label for="name">Name</label>
+        <input name="s1_name" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="email">Email</label>
+        <input name="s1_email" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="webpage">Webpage</label>
+        <input name="s1_webpage" type="text" placeholder="optional">
+      </div>
+    </div>
+  </fieldset>
+  <fieldset id="workteam">
+    <legend>Workteam <span class="btn-inside">
+    <a id="addMember" class="pure-button pure-button-success pure-button-xsmall">+</a>
+    <a id="rmMember" class="pure-button pure-button-error pure-button-xsmall">-</a>
+    </span>
+    </legend>
+    <div class="pure-g-r">
+      <div class="pure-u-1-3">
+        <label for="name">Name</label>
+        <input name="m1_name" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="id">Id</label>
+        <input name="m1_id" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="email">Email</label>
+        <input name="m1_email" type="text" required>
+      </div>
+      <div class="pure-u-1-3">
+        <label for="webpage">Webpage</label>
+        <input name="m1_webpage" type="text" placeholder="optional">
+      </div>
+      <div class="pure-u-1-3">
+        <label for="photo">Fotografia</label>
+        <input type="file" name="file[]">
+      </div>
+    </div>
+  </fieldset>
+  </section>
+  <section class="main-wrapper">
+  <fieldset id="workteam">
+    <legend>Abstract</legend>
+    <label for="abstract">Use xml tags to represent p, i, u, b, acronyms and xrefs.</label>
+    <textarea name="abstract" class="textzone" rows="7" width="100%" required placeholder="<p><i><u><b><acr><xref> allowed"></textarea>
+  </fieldset>
+  <fieldset id="files">
+    <legend>Ficheiros <span class="btn-inside">
+    <a id="addFile" class="pure-button pure-button-success pure-button-xsmall">+</a>
+    <a id="rmFile" class="pure-button pure-button-error pure-button-xsmall">-</a>
+    </span>
+    </legend>
+    <div class="pure-g-r">
+      <div class="pure-u-1-2">
+        <label for="name">Name</label>
+        <input name="f1_name" type="text" required>
+      </div>
+      <div class="pure-u-1-2">
+        <label for="file">Ficheiro</label>
+        <input type="file" name="file[]">
+      </div>
+    </div>
+  </fieldset>
+  <button type="submit" style="margin-top: 30px;" class="pure-button pure-input-1 pure-button-primary">Submit</button>
+  </section>
+  <input type="hidden" name="supcount" id="supcount" value="1">
+  <input type="hidden" name="memcount" id="memcount" value="1">
+  <input type="hidden" name="filecount" id="filecount" value="1">
+</form>
+</body>
+</html>
