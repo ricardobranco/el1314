@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::TP6</keyname>
+        <title>TP 6 - Formulário de Supervisões</title>
+        <subtitle>Sexto projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-11-18</sdate>
+        <edate>2013-11-24</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>img/andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>img/daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>img/ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>Neste projecto é criado um formulário para inserção e listagens de supervisões e armazenando a informação num de ficheiro eXtensible Markup Language.
+        </p>
+    </abstract>
+    <files>
+        <file path="SIP.xml" format="XML">
+            Project Record em XML
+        </file>
+        <file path="listing.php" format="PHP">
+            Ficheiro PHP para listagem de supervisoões
+        </file>
+        <file path="supervisions.php" format="PHP">
+            Ficheiro PHP para tratamento do formulário
+        </file>
+        <file path="index.php" format="PHP">
+            Formulário de Supervisões
+        </file>
+        <file path="assets/style.css" format="CSS">
+            Stylesheet para formulário
+        </file>
+        <file path="assets/custom.css" format="CSS">
+            Overrrides para Stylesheet do formulário
+        </file>
+        <file path="assets/functions.js" format="CSS">
+            Javascript para formulário
+        </file>
+        <file path="assets/jquery.js" format="CSS">
+            Jquery
+        </file>
+
+    </files>
+</sip>

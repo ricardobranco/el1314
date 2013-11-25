@@ -1,0 +1,47 @@
+.main-wrapper{
+	padding: 50px 50px 0 50px;
+	width: 40%;
+	max-width: 40%;
+	display: inline-table;
+}
+
+.btn-inside{
+	float: right;
+}
+
+.pure-button-xsmall {
+    font-size: 50%;
+}
+
+.pure-button-success,
+.pure-button-error {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+    background: rgb(28, 184, 65); 
+}
+
+.pure-button-error {
+    background: rgb(202, 60, 60); 
+}
+
+.textzone{
+	width: 98%;
+	margin: 0px;
+}
+
+fieldset{
+	margin-top: 20px !important;
+}
+
+.dir{
+  width: 100%;
+  padding: 5%;
+}
+
+.newsubmit{
+  text-align: center;
+}
