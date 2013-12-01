@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="supervisions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="supervision"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="supervision">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="id" type="xs:ID" minOccurs="0"/>
+                            <xs:element minOccurs="0" name="course">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="desc" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="inst" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="document">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element minOccurs="0" name="workplan" type="xs:anyURI"/>
+                            <xs:element minOccurs="0" name="thesis" type="xs:anyURI"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="co-sup">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="inst" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="bdate" type="xs:string" minOccurs="0"/>
+                <xs:element minOccurs="0" name="edate" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="status" type="aTstatus" use="required"/>
+            <xs:attribute name="type" type="aTtype" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="aTstatus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="concluded"/>
+            <xs:enumeration value="undergoing"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="aTtype">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="msc"/>
+            <xs:enumeration value="phd"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
