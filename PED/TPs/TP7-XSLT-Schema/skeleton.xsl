@@ -8,7 +8,10 @@
     
     <xsl:template match="/">
         <html>
-            <head></head>
+            <head>
+                <script type="text/javascript" src="assets/jquery.js"></script>
+                <script type="text/javascript" src="assets/form.js"></script>
+            </head>
             <body>
                 <xsl:apply-templates/>
             </body>
@@ -16,9 +19,14 @@
     </xsl:template>
     
     <xsl:template match="/xs:schema/xs:element[@name='supervision']">
-        <form action="add-{@name}.php">
+        <form action="add-{@name}.php" method="post">
+            <fieldset id="supervision1" ><legend>Supervision</legend>
             <xsl:apply-templates/>
             <br/>
+            </fieldset>
+            <a id="addSupervision" style="color:#a23;">Adicionar supervisão</a>
+            <a id="rmSupervision" style="color:#a23;">Remover supervisão</a>
+            <input type="hidden" name="supcount" id="supcount" value="1"/>
             <input type="submit"/>
         </form>
     </xsl:template>
@@ -30,7 +38,7 @@
     <xsl:template match="xs:element[count(./*)=0]" priority="-1">
         
             <xsl:value-of  select="@name"></xsl:value-of>
-            <input type="text" name="{@name}"/>
+            <input type="text" name="{@name}1"/>
     </xsl:template>
     
     <xsl:template match="xs:element[not(count(./*)=0)]" priority="-1">
