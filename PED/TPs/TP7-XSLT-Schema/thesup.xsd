@@ -39,8 +39,8 @@
                 <xs:element minOccurs="0" name="co-sup">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="name" type="xs:string"/>
-                            <xs:element name="inst" type="xs:string"/>
+                            <xs:element name="s_name" type="xs:string"/>
+                            <xs:element name="s_inst" type="xs:string"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
