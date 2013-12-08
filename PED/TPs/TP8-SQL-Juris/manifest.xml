@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::TP8</keyname>
+        <title>TP 8 - SQL para adicionar informação dos júris a uma base de dados SQL</title>
+        <subtitle>Oitavo projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-12-02</sdate>
+        <edate>2013-12-09</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>img/andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>img/daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>img/ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>Neste trabalho com um XSLT aplicado ao Schema dos júris são geradas as queries para a criação das tabelas da base de dados.</p>
+        <p>Depois com um script de PHP são gerados os inserts a partir do ficheiro XML com informação dos júris.</p>        
+        <p>De notar que a base de dados foi construida na 3º forma normal, o que dificultou a criação de um XSLT genérico</p>
+    </abstract>
+    <files>
+        <file path="create_tables_vGenerica.sql" format="SQL">
+            Ficheiro SQL para criação das tabelas, utilizando o XSLT mais genérico
+        </file>
+        <file path="create_tables_vGenerica.xsl" format="XSL">
+            Ficheiro XSLT mais genérico ( Instituições na tabela dos Júris )
+        </file>
+        <file path="create_tables.sql" format="SQL">
+            Ficheiro SQL utilizado para a criação das tabelas
+        </file>
+        <file path="create_tables.xsl" format="XSL">
+            Ficheiro XSLT utilizado para gerar o SQL de criação das tabelas
+        </file>
+        <file path="database.db" format="SQLite3">
+            Base de Dados SQLite Final
+        </file>
+        <file path="geraSQL.php" format="PHP">
+            Script em PHP responável por gerar o ficheiro SQL com inserts.
+        </file>
+        <file path="the-exams.xsd" format="XSD">
+            Schema Júris
+        </file>
+        <file path="the-exam.xsd" format="XSD">
+            Schema Júri
+        </file>
+        <file path="inserts.sql" format="SQL">
+            Ficheiro SQL com inserts.
+        </file>
+        <file path="the-exams.xml" format="XML">
+            Ficheiro XML com informação dos Júris.
+        </file>
+    </files>
+</sip>
