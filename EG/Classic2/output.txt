@@ -1,0 +1,21 @@
+A sequência 3[ABC] é uma sequência válida pois representa correctamente o número de caracteres da palavra ABC. 
+
+A sequência 5[andre] é uma sequência válida pois representa correctamente o número de caracteres da palavra andre. 
+
+A sequência 8[ricardo] é uma sequência inválida, a palavra tem 7 caracteres e a sequência indica que devia ter 8 caracteres. 
+
+A sequência 0[] é uma sequência válida pois representa correctamente o número de caracteres da palavra . 
+
+A sequência 0[carro] é uma sequência inválida, a palavra tem 5 caracteres e a sequência indica que devia ter 0 caracteres. 
+
+A sequência 3[daniel] é uma sequência inválida, a palavra tem 6 caracteres e a sequência indica que devia ter 3 caracteres. 
+
+A sequência 6[daniel] é uma sequência válida pois representa correctamente o número de caracteres da palavra daniel. 
+
+A sequência 6[santos] é uma sequência válida pois representa correctamente o número de caracteres da palavra santos. 
+
+A sequência 8[carvalho] é uma sequência válida pois representa correctamente o número de caracteres da palavra carvalho. 
+
+A sequência 6[branco] é uma sequência válida pois representa correctamente o número de caracteres da palavra branco. 
+
+(sequencias (sequencia 3 [ (palavra A B C) ]) (sequencia 5 [ (palavra a n d r e) ]) (sequencia 8 [ (palavra r i c a r d o) ]) (sequencia 0 [ palavra ]) (sequencia 0 [ (palavra c a r r o) ]) (sequencia 3 [ (palavra d a n i e l) ]) (sequencia 6 [ (palavra d a n i e l) ]) (sequencia 6 [ (palavra s a n t o s) ]) (sequencia 8 [ (palavra c a r v a l h o) ]) (sequencia 6 [ (palavra b r a n c o) ]))

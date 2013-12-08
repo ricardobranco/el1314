@@ -1,0 +1,13 @@
+3[ABC]
+5[andre]
+8[ricardo]
+0[]
+0[carro]
+3[da niel]
+6[da niel]
+6  [san
+tos]
+8[
+carva lho
+]
+6[branco]
