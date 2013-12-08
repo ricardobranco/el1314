@@ -1,0 +1,148 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <div class="header">
+         <h1>TP 8 - SQL para adicionar informação dos júris a uma base de dados SQL</h1>
+         <h2>Oitavo projecto para avaliação</h2>
+      </div>
+      <div class="metadata">
+         <div class="content">
+            <div class="col2">
+               <h3>Information</h3>
+               <ul>
+                  <li>Keyname: EL::PED::TP8</li>
+                  <li>Course: MEI</li>
+                  <li>Class: EL</li>
+               </ul>
+               Development Period: Since 2013-12-02
+               until 2013-12-09
+            </div>
+            <div class="col2">
+               
+               <h3>Supervisors</h3>
+               
+               <p>Name: José Carlos Ramalho</p>
+               
+               <p>Email: <a href="mailto:jcr@di.uminho.pt">jcr@di.uminho.pt</a></p>
+               
+               <p>Webpage: <a href="http://www.di.uminho.pt/~jcr" target="_blank">http://www.di.uminho.pt/~jcr</a></p>
+               
+               
+            </div>
+            <div style="clear: both"></div>
+         </div>
+         <div class="content">
+            <h3>Workteam</h3>
+            <div class="team-member">
+               <div class="photo" style="background: url(img/andre.jpg); background-size:cover;"></div>
+               <div class="member-info">
+                  <p>Name: André Augusto Costa Santos</p>
+                  <p>ID: PG25329</p>
+                  <p>Email: <a href="mailto:andreccdr@gmail.com">andreccdr@gmail.com</a></p>
+                  <p>Webpage: <a href="http://andre-santos.pt" target="_blank">http://andre-santos.pt</a></p>
+               </div>
+            </div>
+            <div class="team-member">
+               <div class="photo" style="background: url(img/daniel.jpg); background-size:cover;"></div>
+               <div class="member-info">
+                  <p>Name: Daniel Alberto Pinto Carvalho</p>
+                  <p>ID: A61008</p>
+                  <p>Email: <a href="mailto:edu@danielcarvalho.pt">edu@danielcarvalho.pt</a></p>
+                  <p>Webpage: <a href="http://danielcarvalho.pt" target="_blank">http://danielcarvalho.pt</a></p>
+               </div>
+            </div>
+            <div class="team-member">
+               <div class="photo" style="background: url(img/ricardo.jpg); background-size:cover;"></div>
+               <div class="member-info">
+                  <p>Name: Ricardo Jorge Rodrigues Branco</p>
+                  <p>ID: PG25339</p>
+                  <p>Email: <a href="mailto:28.ricardobranco@gmail.com">28.ricardobranco@gmail.com</a></p>
+               </div>
+            </div>
+            <div style="clear: both"></div>
+         </div>
+         <div class="content">
+            <h3>Abstract</h3>
+            
+            <p>Neste trabalho com um XSLT aplicado ao Schema dos júris são geradas as queries para
+               a criação das tabelas da base de dados.
+            </p>
+            
+            <p>Depois com um script de PHP são gerados os inserts a partir do ficheiro XML com informação
+               dos júris.
+            </p>        
+            
+            <p>De notar que a base de dados foi construida na 3º forma normal, o que dificultou a
+               criação de um XSLT genérico
+            </p>
+            
+            <div style="clear: both"></div>
+         </div>
+         <div class="content">
+            <h3>Files</h3>
+            <ul>
+               <li><a href="create_tables_vGenerica.sql" target="_blank">
+                     Ficheiro SQL para criação das tabelas, utilizando o XSLT mais genérico
+                     </a>
+                  :: Format: SQL
+               </li>
+               <li><a href="create_tables_vGenerica.xsl" target="_blank">
+                     Ficheiro XSLT mais genérico ( Instituições na tabela dos Júris )
+                     </a>
+                  :: Format: XSL
+               </li>
+               <li><a href="create_tables.sql" target="_blank">
+                     Ficheiro SQL utilizado para a criação das tabelas
+                     </a>
+                  :: Format: SQL
+               </li>
+               <li><a href="create_tables.xsl" target="_blank">
+                     Ficheiro XSLT utilizado para gerar o SQL de criação das tabelas
+                     </a>
+                  :: Format: XSL
+               </li>
+               <li><a href="database.db" target="_blank">
+                     Base de Dados SQLite Final
+                     </a>
+                  :: Format: SQLite3
+               </li>
+               <li><a href="geraSQL.php" target="_blank">
+                     Script em PHP responável por gerar o ficheiro SQL com inserts.
+                     </a>
+                  :: Format: PHP
+               </li>
+               <li><a href="the-exams.xsd" target="_blank">
+                     Schema Júris
+                     </a>
+                  :: Format: XSD
+               </li>
+               <li><a href="the-exam.xsd" target="_blank">
+                     Schema Júri
+                     </a>
+                  :: Format: XSD
+               </li>
+               <li><a href="inserts.sql" target="_blank">
+                     Ficheiro SQL com inserts.
+                     </a>
+                  :: Format: SQL
+               </li>
+               <li><a href="the-exams.xml" target="_blank">
+                     Ficheiro XML com informação dos Júris.
+                     </a>
+                  :: Format: XML
+               </li>
+            </ul>
+            <div style="clear: both"></div>
+         </div>
+      </div>
+      <div class="footer">
+         <h6>Processamento Estruturado de Documentos :: Engenharia de Linguagens :: Mestrado em
+            Engenharia Informática
+         </h6>
+         <h6>Departamento de Informática :: Universidade do Minho :: 2013</h6>
+      </div>
+   </body>
+</html>
