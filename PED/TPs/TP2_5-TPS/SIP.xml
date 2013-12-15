@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sip SYSTEM "SIP.dtd">
+<sip>
+    <meta>
+        <keyname>EL::PED::SIP.XSLT</keyname>
+        <title>TPC 3 - EXtensible Stylesheet Language Transformations para Indices de Grupos de trabalho</title>
+        <subtitle>Terceiro projecto para avaliação</subtitle>
+        <course>MEI</course>
+        <class>EL</class>
+        <sdate>2013-10-21</sdate>
+        <edate>2013-10-27</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www.di.uminho.pt/~jcr</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>André Augusto Costa Santos</name>
+                <id>PG25329</id>
+                <email>andreccdr@gmail.com</email>
+                <webpage>http://andre-santos.pt</webpage>
+                <photo>andre.jpg</photo>
+            </member>
+            <member>
+                <name>Daniel Alberto Pinto Carvalho</name>
+                <id>A61008</id>
+                <email>edu@danielcarvalho.pt</email>
+                <webpage>http://danielcarvalho.pt</webpage>
+                <photo>daniel.jpg</photo>
+            </member>
+            <member>
+                <name>Ricardo Jorge Rodrigues Branco</name>
+                <id>PG25339</id>
+                <email>28.ricardobranco@gmail.com</email>
+                <photo>ricardo.jpg</photo>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>
+            Neste projecto foram desenvolvidas 
+            <acr>
+                <abv>XSLT</abv> 
+                <desc>EXtensible Stylesheet Language Transformations</desc>
+            </acr>    
+            de forma a criar um índice de grupos.
+        </p>
+    </abstract>
+    <files>
+        <file path="SIP.xml" format="XML">
+            Project Record
+        </file>
+        <file path="TPS.dtd" format="DTD">
+            Document Type Definition para Índice de Grupos
+        </file>
+        <file path="TPS.xml" format="XML">
+            Extensible Markup Language para Índice de Grupos
+        </file>
+        <file path="TPS.xls" format="XLS">
+            EXtensible Stylesheet Language Transformations para Índice de Grupos
+        </file>
+        <file path="TPS.html" format="HTML">
+            HyperText Markup Language para Índice de Grupos
+        </file>
+        <file path="style.css" format="CSS">
+            Cascading Style Sheet para Índice de Grupos
+        </file>
+    </files>
+</sip>

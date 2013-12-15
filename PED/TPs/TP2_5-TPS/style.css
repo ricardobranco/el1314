@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family : "Tahoma";
+    background: url("https://d3levm2kxut31z.cloudfront.net/assets/paper-texture-78e81f14f426b1043da12ae2e3894487.jpg") repeat;
+}
+a{
+    color: #FFF;
+}
+.index{
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #FFF;
+    background: url(https://d3levm2kxut31z.cloudfront.net/assets/black-texture-30dcf04d630ac459dfa847b3c1a0ee01.jpg) repeat;
+    
+}
+.workgroups{
+    float: left;
+    min-width: 50%;
+    margin-left: 25%;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.workgroups a{
+    color: #A2A2A2;
+}  
