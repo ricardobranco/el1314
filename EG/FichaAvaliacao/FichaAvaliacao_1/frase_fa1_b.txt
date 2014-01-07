@@ -1,0 +1,15 @@
+[
+	REGISTO r1 :
+	BAUM - LIVRO - "Game Of Thrones"
+	("George R.R. Martin") "Bang" - 2007
+	EXISTENCIAS
+	baum_gt_28 ESTANTE ,
+	bgum_gt_62 EMPRESTADO 2014-5-10
+],
+[
+	REGISTO r2 :
+	BAUM - CDROM - "Miss Sarajevo"
+	("Bono","Pavarotti") "Universal" - 1995
+	EXISTENCIAS
+	bgum_bpms_85 PERMANENTE
+]
