@@ -1,0 +1,111 @@
+void rec_Existencias(s){
+	if(s in la(p1){
+		rec_Estado(s);
+	}else if(s in la(p2)){
+		rec_Existencias(s);
+		rec_Virgula(s);
+		rec_Estado(s);
+	}else{
+		erro();
+	}
+}
+
+
+
+void rec_Estado(s){
+	if(s in la(p1)){
+		rec_Codigobarras(s);
+		rec_Disponib(s);
+	}else{
+		erro();
+	}
+}
+
+
+void rec_Codigobarras(s){
+	rec_ID(s);
+}
+
+void rec_ID(s){
+	if(matchID(s)){
+		s = daSimbolo();
+	}else{
+		erro();
+	}
+
+}
+
+void rec_Disponib(s){
+	switch(s){
+		case ESTANTE :
+			s = daSimbolo();
+			break;
+		case PERMANENTE :
+			s = daSimbolo();
+			break;
+		case EMPRESTADO() :
+			s = daSimbolo();
+			rec_Datadev(s);
+			break;
+		default:
+			erro();
+	}
+}
+
+
+void rec_Datadev(s){
+	if(s in la(p1)){
+		rec_Ano(s);
+		rec_Hifen(s);
+		rec_Mes(s);
+		rec_Hifen(s);
+		rec_Dia(s);
+	}else{
+		erro();
+	}
+}
+
+
+
+void rec_Ano(s){
+	if(matchNUM(s)){
+		s = daSimbolo();
+	}else{
+		erro();
+	}
+}
+
+
+void rec_Hifen(s){
+	if(s == '-'){
+		s=daSimbolo();
+	}
+}
+
+
+void rec_Mes(s){
+	rec_NUM(s);
+}
+
+void rec_Dia(s){
+	rec_NUM(s)
+}
+
+
+void rec_NUM(s){
+	if(s == '-'){
+		s = daSimbolo();
+	}else{
+		erro();
+	}
+}
+
+
+void rec_Virgula(s){
+	if(s == ','){
+		s = daSimbolo(s);
+	}
+}
+
+
+
