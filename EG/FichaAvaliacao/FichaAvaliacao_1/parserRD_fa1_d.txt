@@ -10,8 +10,6 @@ void rec_Existencias(s){
 	}
 }
 
-
-
 void rec_Estado(s){
 	if(s in la(p1)){
 		rec_Codigobarras(s);
@@ -20,7 +18,6 @@ void rec_Estado(s){
 		erro();
 	}
 }
-
 
 void rec_Codigobarras(s){
 	rec_ID(s);
@@ -52,7 +49,6 @@ void rec_Disponib(s){
 	}
 }
 
-
 void rec_Datadev(s){
 	if(s in la(p1)){
 		rec_Ano(s);
@@ -65,8 +61,6 @@ void rec_Datadev(s){
 	}
 }
 
-
-
 void rec_Ano(s){
 	if(matchNUM(s)){
 		s = daSimbolo();
@@ -75,13 +69,11 @@ void rec_Ano(s){
 	}
 }
 
-
 void rec_Hifen(s){
 	if(s == '-'){
 		s=daSimbolo();
 	}
 }
-
 
 void rec_Mes(s){
 	rec_NUM(s);
@@ -100,12 +92,8 @@ void rec_NUM(s){
 	}
 }
 
-
 void rec_Virgula(s){
 	if(s == ','){
 		s = daSimbolo(s);
 	}
 }
-
-
-
