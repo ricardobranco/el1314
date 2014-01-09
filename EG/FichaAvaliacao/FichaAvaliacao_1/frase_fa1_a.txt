@@ -3,7 +3,7 @@
 	BAUM - LIVRO - "Game Of Thrones"
 	("George R.R. Martin") "Bang" - 2007
 	EXISTENCIAS
-	baum_gt_28 ESTANTE ,
+	baum_gt_28 PERMANENTE ,
 	bgum_gt_62 EMPRESTADO 2014-5-10
 ],
 [
