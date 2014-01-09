@@ -1,0 +1,10 @@
+Kernel #Estado Inicial
+-----------------------
+Fecho #Estados que saem do Kernel
+
+[Z -> . Biblioteca $]
+----------------------------------------------------------------
+[Biblioteca -> . Registo]
+[Registos -> . Registos]
+[Registos -> . Registos ',' Registo]
+[Registo -> . '[' REGISTO Descricao EXISTENCIAS Existencias ']']
