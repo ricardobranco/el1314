@@ -1,0 +1,26 @@
+T={'[',']',',',':','-','(',')',id,string,num,REGISTO,EXISTENCIAS,LIVRO,CDROM,OUTRO,BGUM,BAUM,ESTANTE,PERMANENTE,EMPRESTADO}
+N = {Biblioteca,Registos,Registo,Descricao,Referencia,Tipo,Titulo,Autor,Editora,Ano,Catalogo,Existencias,Estado,CodigoBarras,Disponib,DataDev,Mes,Dia}
+PU={
+	p1) 	Registos   	-> Registo
+	p5) 	Referencia 	-> id
+	p6) 	Tipo 		-> LIVRO
+	p7)			  		 | CDROM
+	p8)		  			 | OUTRO
+	p9) 	Titulo 		-> string
+	p10)	Autor 		-> string
+	p11)	Editora 	-> string
+	p12)	Ano 		-> num
+	p13)	Catalogo	-> BGUM
+	p14)				 | BAUM
+	p15)				 | OUTRO
+	p19) 	Existencias -> Estado
+	p22)	CodigoBarras-> id
+	p23)	Disponib	-> Estante
+	p24)				 | Permanente
+	p27)	Mes			-> num
+	p28)	Dia 		-> num
+}
+
+
+#N = 20
+#T = 20
