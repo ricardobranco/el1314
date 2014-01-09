@@ -24,3 +24,8 @@ PU={
 
 #N = 20
 #T = 20
+#PU = 18   // S não esta contido em PU, sendo assim p0 não é uma PU
+
+#P = 26
+#RHS = 53/26 = 2,038   //Right Hand Size
+#RHS-Max = 13 //p4
