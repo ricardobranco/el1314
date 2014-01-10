@@ -8,8 +8,8 @@
 ],
 [
 	REGISTO r2 :
-	BAUM - CDROM - "Abbey Road"
+	BGUM - CDROM - "Abbey Road"
 	("Beatles") "Apple Records" - 1969
 	EXISTENCIAS
-	bgum_tcs_85 PERMANENTE
+	bgum_arbeat_85 PERMANENTE
 ]

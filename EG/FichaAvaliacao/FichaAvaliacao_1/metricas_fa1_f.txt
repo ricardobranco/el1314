@@ -22,7 +22,7 @@ PU={
 }
 
 
-#N = 20
+#N = 18
 #T = 20
 #PU = 18   // S não esta contido em PU, sendo assim p0 não é uma PU
 
