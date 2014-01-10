@@ -95,8 +95,8 @@ Comparando as duas árvores conclui-se que no caso da grámatica constituida por
 
 No Apêndice ~\ref{sec:parser_recursivo_descedente} estão as funções respetivas a um paser RD-puro(recursivo-descendente), com o objetivo de reconhecer o Símbolo \emph{Existencias}.
 
-No caso dos simbolos não-terminais usa-se a função \emph{void rec\_N(s)}, em que \emph{N} é o símbolo não-terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objectivo é verificar para cada produção \emph{p} de \emph{N} se \emph{s} faz parte do \emph{lookahead} de \emph{p}(\emph{la(p)}), caso não acontece é retornado um erro.
-No caso dos simbolo terminais usa-se a função \emph{void rec\_T(s)}, em que \emph{T} é o simbolo terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objectivo é verifcar \emph{s} é igual ao simbolo terminal \emph{T} ou se faz \emph{match} com \emph{T} no caso dos simbolos terminais variáveis \emph{match\_T(s)}. Caso \emph{s} seja reconhecido, este passa a ter o valor do próximo símbolo a analisar, caso contrário é retornado um erro.
+No caso dos simbolos não-terminais usa-se a função \emph{void rec\_N(s)}, em que \emph{N} é o símbolo não-terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objetivo é verificar para cada produção \emph{p} de \emph{N} se \emph{s} faz parte do \emph{lookahead} de \emph{p}(\emph{la(p)}), caso não acontece é retornado um erro.
+No caso dos simbolo terminais usa-se a função \emph{void rec\_T(s)}, em que \emph{T} é o simbolo terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objetivo é verifcar \emph{s} é igual ao simbolo terminal \emph{T} ou se faz \emph{match} com \emph{T} no caso dos simbolos terminais variáveis \emph{match\_T(s)}. Caso \emph{s} seja reconhecido, este passa a ter o valor do próximo símbolo a analisar, caso contrário é retornado um erro.
 
 
 
@@ -152,7 +152,7 @@ Legenda:
 
 \subsection{Alínea G} % (fold)
 \label{sub:alinea_g}
-No Apêndice ~\ref{sec:gramatica_atributos} está presente a grámatica de atributos reconhecidas. Respectivamente à mesma gramática optou-se por criar duas classes auxiliares \emph{Registo} e \emph{Registos} com o objectivo de tornar a grámatica mais legível. Os atributos herdados foram escritos na forma \emph{in\_*} e os atributos sintetizados foram escritos na forma \emph{out\_*}.
+No Apêndice ~\ref{sec:gramatica_atributos} está presente a grámatica de atributos reconhecidas. Respectivamente à mesma gramática optou-se por criar duas classes auxiliares \emph{Registo} e \emph{Registos} com o objetivo de tornar a grámatica mais legível. Os atributos herdados foram escritos na forma \emph{in\_*} e os atributos sintetizados foram escritos na forma \emph{out\_*}.
 %falar do visual lisa
 
 

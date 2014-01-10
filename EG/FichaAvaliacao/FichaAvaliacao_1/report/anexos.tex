@@ -1,17 +1,16 @@
 \newpage
 \appendix
 \section{Gramática Independente de Contexto - AnTLR}
-\begin{verbatim}
+\begin{spverbatim}
 grammar gic_fa1_a;
 
 biblioteca : registos ;
 
 registos    : registo
             | registos ',' registo
-			;
+			      ;
 
 registo     : '[' REGISTO descricao EXISTENCIAS existencias ']' ;
-
 
 descricao   : referencia ':' catalogo '-' tipo '-' titulo '(' autor ')' editora '-' ano ;
 
@@ -78,34 +77,30 @@ ID          : [a-z][a-z0-9_]* ;
 
 STRING      : '"' ( '\\"' | . )*? '"' ;
 
-
 NUM         : [0-9]+ ;
 
 Sep         :    ('\r'? '\n' | ' ' | '\t')+ -> skip;
-\end{verbatim}
+\end{spverbatim}
 \newpage
 \section{Gramática de Atributos - AnTLR}
 \label{sec:gramatica_atributos}
 
 Grámatica usada na alinea g e explicada na secção ~\ref{sub:alinea_g}.
-\begin{verbatim}
+\begin{spverbatim}
 grammar ga_fa1_g;
 
-@header{
-        import java.util.*;
-}
+@header{import java.util.*;}
 
-@members{
-      class Registo {
+@members{class Registo {
             String ref;
             int nrLivros;
 
             public Registo(){
                   nrLivros = 0;
             }
-      }
+        }
 
-      class Registos {
+        class Registos {
             HashMap<String,Registo> registos ;
             TreeSet<String> livros;
             int permanentes;
@@ -117,7 +112,6 @@ grammar ga_fa1_g;
             }
       }
 }
-
 biblioteca  : r=registos
             {System.out.println("Nº de Registos: "+$r.out_registos.registos.size());
              System.out.println("Nº de Livros com o estado permanente: "+$r.out_registos.permanentes);
@@ -201,7 +195,6 @@ existencias returns [int out_quantidade,int out_NPermanente]
                               }
             ;
 
-
 estado      returns [int out_NPermanente]
             : codigobarras d = disponib {$out_NPermanente = $d.out_NPermanente;}
             ;
@@ -247,7 +240,7 @@ NUM         : [0-9]+ ;
 
 Sep         :    ('\r'? '\n' | ' ' | '\t')+ -> skip;
 
-\end{verbatim}
+\end{spverbatim}
 \newpage
 \section{Árvores de Derivação}
 \begin{figure}[!h]
@@ -268,7 +261,7 @@ Sep         :    ('\r'? '\n' | ' ' | '\t')+ -> skip;
 
 Funções de um parser RD-puro, com respetiva explicação na secção ~\ref{sub:alinea_d}.
 
-\begin{verbatim}
+\begin{spverbatim}
 void rec_Existencias(s){
 	if(s in la(p1){
 		rec_Estado(s);
@@ -300,7 +293,6 @@ void rec_ID(s){
 	}else{
 		erro();
 	}
-
 }
 
 void rec_Disponib(s){
@@ -369,5 +361,5 @@ void rec_Virgula(s){
 	}
 }
 
-\end{verbatim}
+\end{spverbatim}
 % section parser_recursivo_descedente (end)
