@@ -1,2 +1,60 @@
 \section{Introdução}
 
+A gramática independente de contexto, GIC, abaixo apresentada, define uma linguagem específica para descrever os livros e CDs disponíveis numa Biblioteca e o estado associado a cada um (livre ou emprestado), à semelhança do que acontece nas bibliotecas da UM.
+O Símbolo Inicial é Biblioteca, os Símbolos Terminais são escritos em maiúsculas (pseudo-terminais) ou em maiúscula entre apostrofes (palavras-reservadas e sinais de pontuação), e a string nula é denotada por &; os restantes (sempre em minúsculas) serão os Símbolos Não-Terminais.
+Neste contexto e após analisar a GIC dada, torna-se necessário responder a algumas questões. 
+\begin{verbatim}
+    p0: Biblioteca --> Registos
+    p1: Registos --> Registo
+    p2:     | Registos ',' Registo
+    p3: Registo --> '[' REGISTO Descricao EXISTENCIAS Existencias ']'
+    p4: Descricao --> Referencia ':' Catalogo '-' Tipo '-' Titulo '(' Autor ')'
+    Editora '-' Ano
+    P5: Referencia --> id
+    p6: Tipo --> LIVRO
+    p7:     | CDROM
+    p8:     | OUTRO
+    p9: Titulo --> string
+    p10: Autor --> string
+    p11: Editora --> string
+    p12: Ano --> num
+    p13: Catalogo --> BGUM
+    p14:     | BAUM
+    p15:     | OUTRO
+    p19: Existencias --> Estado
+    p20:     | Existencias ',' Estado
+    p21: Estado --> CodigoBarras Disponib
+    p22: CodigoBarras --> id
+    p23: Disponib --> ESTANTE
+    p24:     | PERMANENTE
+    p25:     | EMPRESTADO DataDev
+    p26: DataDev --> Ano '-' Mes '-' Dia
+    p27: Mes --> num
+    p28: Dia --> num
+
+\end{verbatim}
+    
+
+a) Escreva uma frase válida da linguagem gerada pela GIC dada, mostrando a respectiva Árvore de Derivação.
+
+b) Altere a gramáatica de modo a permitir que cada livro tenha mais de um Autor.
+
+c) O par de produções p1/p2 define uma lista com recursividade à esquerda. Altere esse par para usarrecursividade à direita e mostre, através das árvores de derivação, a diferença entre ambos os esquemas iterativos.
+
+d) Escreva as funções de um parser RD-puro (recursivo-descendente) para reconhecer o Símbolo Existencias e seus derivados, isto é, os símbolos que apareçam no lado direito das produções.
+
+e) Construa o estado inicial do autómato LR(0) para gramática dada e os estados que dele saem.
+
+f) No sentido de começar a avaliar a qualidade desta gramática calcule algumas métricas de tamanho
+sobre ela: número de símbolos de cada tipo; número de produções; número de produções unitárias;
+comprimento médio e máximo dos lados direitos das produções; ...
+
+g) Transforme a GIC dada numa gramática de atributos, GA, reconhecível pelo AnTLR, para:
+\begin{itemize}
+\item calcular e imprimir: o número de registos; e o número de livros existentes para cada registo.
+\item calcular o número total de livros com estado PERMANENTE.
+\item identificar e listar por ordem alfabética os títulos dos livros.
+\item verificar se não existem registos com a mesma referência.
+\end{itemize}
+
+\newpage
