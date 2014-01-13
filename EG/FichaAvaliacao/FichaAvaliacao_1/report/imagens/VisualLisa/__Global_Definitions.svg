@@ -1,0 +1,20 @@
+<svg width="325.0" height="291.0"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="98.0" y="20.0" xml:space="preserve" ><tspan x="98.0" y="20.0">Global Definitions</tspan></text>
+  <polygon fill="#ffffff" fill-rule="evenodd" points="12 52 16 50 91 50 238 50 314 50 318 52 319 56 319 63 319 72 319 80 318 84 314 85 238 85 91 85 16 85 12 84 10 80 10 72 10 63 10 56 12 52" stroke="#000000" stroke-width="3" stroke-dasharray="4, 4" />
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="86.0" y="50.0" xml:space="preserve" ><tspan x="86.0" y="50.0">Lexemes</tspan></text>
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="68.0" y="115.0" xml:space="preserve" ><tspan x="68.0" y="115.0">Types</tspan></text>
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="60.0" y="180.0" xml:space="preserve" ><tspan x="60.0" y="180.0">Modules</tspan></text>
+  <polygon fill="#ffffff" fill-rule="evenodd" points="12 117 16 115 91 115 238 115 314 115 318 117 319 121 319 128 319 137 319 145 318 149 314 150 238 150 91 150 16 150 12 149 10 145 10 137 10 128 10 121 12 117" stroke="#000000" stroke-width="3" stroke-dasharray="4, 4" />
+  <polygon fill="#ffffff" fill-rule="evenodd" points="12 182 16 180 91 180 238 180 314 180 318 182 319 186 319 193 319 202 319 210 318 214 314 215 238 215 91 215 16 215 12 214 10 210 10 202 10 193 10 186 12 182" stroke="#000000" stroke-width="3" stroke-dasharray="4, 4" />
+  <polygon fill="#ffffff" fill-rule="evenodd" points="12 252 16 250 91 250 238 250 314 250 318 252 319 256 319 263 319 272 319 280 318 284 314 285 238 285 91 285 16 285 12 284 10 280 10 272 10 263 10 256 12 252" stroke="#000000" stroke-width="3" stroke-dasharray="4, 4" />
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="66.0" y="250.0" xml:space="preserve" ><tspan x="66.0" y="250.0">User Functions</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="25.0" y="72.0" fill="#00008b" xml:space="preserve" ><tspan x="25.0" y="72.0">ignore</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="79.0" y="72.0" xml:space="preserve" ><tspan x="79.0" y="72.0">  : </tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="115.0" y="72.0" fill="#00008b" xml:space="preserve" ><tspan x="115.0" y="72.0"> [\0x09\0x0A\0x0D\ ]+</tspan></text>
+
+  <defs>
+  </defs>
+</svg>

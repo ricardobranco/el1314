@@ -1,0 +1,61 @@
+<svg width="1046.0" height="456.0"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <text style="font-size:15;font-family:Times;font-weight:bold;font-style:italic" x="133.0" y="35.0" xml:space="preserve" ><tspan x="133.0" y="35.0">Production:</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="99.0" y="71.0" xml:space="preserve" ><tspan x="99.0" y="71.0">Rules</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="345.0" y="71.0" xml:space="preserve" ><tspan x="345.0" y="71.0">Tree</tspan></text>
+  <polyline fill="none" points="236 45 236 450" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="24 75 1026 70" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="297.0" y="28.0" xml:space="preserve" ><tspan x="297.0" y="28.0">p3:Registo</tspan></text>
+  <image x="550.0" y="110.0" width="73" height="45" xlink:href="img_leftsymbol.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="569.0" y="162.0" xml:space="preserve" ><tspan x="569.0" y="162.0">Registo</tspan></text>
+  <image x="695.0" y="80.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="694.0" y="122.0" xml:space="preserve" ><tspan x="694.0" y="122.0">out_registo</tspan></text>
+  <image x="845.0" y="80.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="844.0" y="122.0" xml:space="preserve" ><tspan x="844.0" y="122.0">out_isLivro</tspan></text>
+  <image x="885.0" y="140.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="885.0" y="182.0" xml:space="preserve" ><tspan x="885.0" y="182.0">out_titulo</tspan></text>
+  <image x="715.0" y="137.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="714.0" y="179.0" xml:space="preserve" ><tspan x="714.0" y="179.0">out_NPermanente</tspan></text>
+  <image x="270.0" y="200.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="283.0" y="252.0" xml:space="preserve" ><tspan x="283.0" y="252.0">'['</tspan></text>
+  <image x="436.0" y="300.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="455.0" y="352.0" xml:space="preserve" ><tspan x="455.0" y="352.0">Descricao</tspan></text>
+  <image x="674.0" y="380.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="674.0" y="422.0" xml:space="preserve" ><tspan x="674.0" y="422.0">out_referencia</tspan></text>
+  <image x="555.0" y="390.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="554.0" y="432.0" xml:space="preserve" ><tspan x="554.0" y="432.0">out_isLivro</tspan></text>
+  <image x="425.0" y="390.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="425.0" y="432.0" xml:space="preserve" ><tspan x="425.0" y="432.0">out_titulo</tspan></text>
+  <image x="330.0" y="250.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="339.0" y="302.0" xml:space="preserve" ><tspan x="339.0" y="302.0">'REGISTO'</tspan></text>
+  <image x="590.0" y="300.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="599.0" y="352.0" xml:space="preserve" ><tspan x="599.0" y="352.0">'EXISTENCIAS'</tspan></text>
+  <image x="732.0" y="280.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="753.0" y="332.0" xml:space="preserve" ><tspan x="753.0" y="332.0">Existencias</tspan></text>
+  <image x="885.0" y="330.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="885.0" y="372.0" xml:space="preserve" ><tspan x="885.0" y="372.0">out_quantidade</tspan></text>
+  <image x="865.0" y="387.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="864.0" y="429.0" xml:space="preserve" ><tspan x="864.0" y="429.0">out_NPermanente</tspan></text>
+  <image x="890.0" y="230.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="903.0" y="282.0" xml:space="preserve" ><tspan x="903.0" y="282.0">']'</tspan></text>
+  <polyline fill="none" points="638 128 690 115" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="638 133 840 109" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="638 143 710 152" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="638 141 880 160" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="550 151 320 221" stroke="#000000" />
+  <polyline fill="none" points="579 166 509 300" stroke="#000000" />
+  <polyline fill="none" points="552 345 669 383" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="530 356 574 390" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="486 356 476 390" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="551 166 421 250" stroke="#000000" />
+  <polyline fill="none" points="603 166 647 300" stroke="#000000" />
+  <polyline fill="none" points="628 166 767 280" stroke="#000000" />
+  <polyline fill="none" points="870 329 880 333" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="837 336 902 387" stroke="#00ff00" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="638 154 890 249" stroke="#000000" />
+
+  <defs>
+  </defs>
+</svg>

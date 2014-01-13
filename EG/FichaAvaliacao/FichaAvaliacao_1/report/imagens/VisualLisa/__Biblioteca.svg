@@ -1,0 +1,41 @@
+<svg width="493.0" height="659.0"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="61.0" y="35.0" xml:space="preserve" ><tspan x="61.0" y="35.0">Grammar </tspan></text>
+  <polygon fill="#ffffff" fill-rule="evenodd" points="12 74 17 72 87 72 220 72 289 72 294 74 296 79 296 223 296 504 296 647 294 652 289 654 220 654 87 654 17 654 12 652 10 647 10 504 10 223 10 79 12 74" stroke="#000000" stroke-width="2" stroke-dasharray="4, 4" />
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="122.0" y="67.0" xml:space="preserve" ><tspan x="122.0" y="67.0">Productions</tspan></text>
+  <text style="font-size:16;font-family:Times;font-weight:bold;font-style:italic" x="376.0" y="67.0" xml:space="preserve" ><tspan x="376.0" y="67.0">Definitions</tspan></text>
+  <polygon fill="#ffffff" fill-rule="evenodd" points="308 74 313 72 357 72 438 72 481 72 486 74 488 79 488 223 488 504 488 647 486 652 481 654 438 654 357 654 313 654 308 652 306 647 306 504 306 223 306 79 308 74" stroke="#000000" stroke-width="2" stroke-dasharray="4, 4" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="165.0" y="27.0" xml:space="preserve" ><tspan x="165.0" y="27.0">Biblioteca</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="93.0" y="94.0" xml:space="preserve" ><tspan x="93.0" y="94.0">p0:Biblioteca</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="102.0" y="116.0" xml:space="preserve" ><tspan x="102.0" y="116.0">p1:Registos</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="102.0" y="138.0" xml:space="preserve" ><tspan x="102.0" y="138.0">p2:Registos</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="108.0" y="160.0" xml:space="preserve" ><tspan x="108.0" y="160.0">p3:Registo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="182.0" xml:space="preserve" ><tspan x="99.0" y="182.0">p4:Descricao</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="93.0" y="204.0" xml:space="preserve" ><tspan x="93.0" y="204.0">p5:Referencia</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="226.0" xml:space="preserve" ><tspan x="120.0" y="226.0">p6:Tipo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="248.0" xml:space="preserve" ><tspan x="120.0" y="248.0">p7:Tipo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="270.0" xml:space="preserve" ><tspan x="120.0" y="270.0">p8:Tipo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="111.0" y="292.0" xml:space="preserve" ><tspan x="111.0" y="292.0">p9:Titulo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="111.0" y="314.0" xml:space="preserve" ><tspan x="111.0" y="314.0">p10:Autor</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="102.0" y="336.0" xml:space="preserve" ><tspan x="102.0" y="336.0">p11:Editora</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="358.0" xml:space="preserve" ><tspan x="120.0" y="358.0">p12:Ano</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="380.0" xml:space="preserve" ><tspan x="99.0" y="380.0">p13:Catalogo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="402.0" xml:space="preserve" ><tspan x="99.0" y="402.0">p14:Catalogo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="424.0" xml:space="preserve" ><tspan x="99.0" y="424.0">p15:Catalogo</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="84.0" y="446.0" xml:space="preserve" ><tspan x="84.0" y="446.0">p19:Existencias</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="84.0" y="468.0" xml:space="preserve" ><tspan x="84.0" y="468.0">p20:Existencias</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="108.0" y="490.0" xml:space="preserve" ><tspan x="108.0" y="490.0">p21:Estado</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="81.0" y="512.0" xml:space="preserve" ><tspan x="81.0" y="512.0">p22:CodigoBarras</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="534.0" xml:space="preserve" ><tspan x="99.0" y="534.0">p23:Disponib</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="556.0" xml:space="preserve" ><tspan x="99.0" y="556.0">p24:Disponib</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="99.0" y="578.0" xml:space="preserve" ><tspan x="99.0" y="578.0">P25:Disponib</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="102.0" y="600.0" xml:space="preserve" ><tspan x="102.0" y="600.0">p26:DataDev</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="622.0" xml:space="preserve" ><tspan x="120.0" y="622.0">p27:Mes</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="120.0" y="644.0" xml:space="preserve" ><tspan x="120.0" y="644.0">p28:Dia</tspan></text>
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="316.0" y="369.0" xml:space="preserve" ><tspan x="316.0" y="369.0">Global Definitions</tspan></text>
+
+  <defs>
+  </defs>
+</svg>

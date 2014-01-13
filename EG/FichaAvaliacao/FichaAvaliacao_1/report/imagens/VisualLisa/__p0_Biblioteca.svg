@@ -1,0 +1,22 @@
+<svg width="381.0" height="276.0"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <text style="font-size:15;font-family:Times;font-weight:bold;font-style:italic" x="24.0" y="35.0" xml:space="preserve" ><tspan x="24.0" y="35.0">Production:</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="30.0" y="71.0" xml:space="preserve" ><tspan x="30.0" y="71.0">Rules</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="119.0" y="71.0" xml:space="preserve" ><tspan x="119.0" y="71.0">Tree</tspan></text>
+  <polyline fill="none" points="90 45 90 270" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="15 75 370 70" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="114.0" y="28.0" xml:space="preserve" ><tspan x="114.0" y="28.0">p0:Biblioteca</tspan></text>
+  <image x="115.0" y="90.0" width="73" height="45" xlink:href="img_leftsymbol.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="135.0" y="142.0" xml:space="preserve" ><tspan x="135.0" y="142.0">Biblioteca</tspan></text>
+  <image x="115.0" y="200.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="134.0" y="252.0" xml:space="preserve" ><tspan x="134.0" y="252.0">Registos</tspan></text>
+  <image x="250.0" y="210.0" width="37" height="29" xlink:href="img_syntAtt.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="250.0" y="252.0" xml:space="preserve" ><tspan x="250.0" y="252.0">out_registos</tspan></text>
+  <polyline fill="none" points="171 146 168 200" stroke="#000000" />
+  <polyline fill="none" points="219 229 245 231" stroke="#00ff00" stroke-dasharray="2, 4" />
+
+  <defs>
+  </defs>
+</svg>

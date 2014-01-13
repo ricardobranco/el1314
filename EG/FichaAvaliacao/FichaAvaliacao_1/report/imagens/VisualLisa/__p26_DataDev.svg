@@ -1,0 +1,31 @@
+<svg width="739.0" height="293.0"
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <text style="font-size:15;font-family:Times;font-weight:bold;font-style:italic" x="82.0" y="35.0" xml:space="preserve" ><tspan x="82.0" y="35.0">Production:</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="67.0" y="71.0" xml:space="preserve" ><tspan x="67.0" y="71.0">Rules</tspan></text>
+  <text style="font-size:13;font-family:Times;font-weight:normal;font-style:italic" x="239.0" y="71.0" xml:space="preserve" ><tspan x="239.0" y="71.0">Tree</tspan></text>
+  <polyline fill="none" points="167 45 167 287" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <polyline fill="none" points="20 75 717 70" stroke="#000000" stroke-width="2" stroke-dasharray="2, 4" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="210.0" y="28.0" xml:space="preserve" ><tspan x="210.0" y="28.0">p26:DataDev</tspan></text>
+  <image x="437.0" y="80.0" width="73" height="45" xlink:href="img_leftsymbol.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="456.0" y="132.0" xml:space="preserve" ><tspan x="456.0" y="132.0">DataDev</tspan></text>
+  <image x="207.0" y="230.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="225.0" y="282.0" xml:space="preserve" ><tspan x="225.0" y="282.0">Ano</tspan></text>
+  <image x="337.0" y="230.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="350.0" y="282.0" xml:space="preserve" ><tspan x="350.0" y="282.0">'-'</tspan></text>
+  <image x="437.0" y="220.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="455.0" y="272.0" xml:space="preserve" ><tspan x="455.0" y="272.0">Mes</tspan></text>
+  <image x="567.0" y="220.0" width="55" height="37" xlink:href="img_terminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="580.0" y="272.0" xml:space="preserve" ><tspan x="580.0" y="272.0">'-'</tspan></text>
+  <image x="667.0" y="230.0" width="70" height="44" xlink:href="img_nonterminal.gif" />
+  <text style="font-size:10;font-family:Courier;font-weight:normal;font-style:normal" x="685.0" y="282.0" xml:space="preserve" ><tspan x="685.0" y="282.0">Dia</tspan></text>
+  <polyline fill="none" points="437 135 267 240" stroke="#000000" />
+  <polyline fill="none" points="459 136 384 230" stroke="#000000" />
+  <polyline fill="none" points="479 136 469 220" stroke="#000000" />
+  <polyline fill="none" points="503 136 570 220" stroke="#000000" />
+  <polyline fill="none" points="522 136 667 238" stroke="#000000" />
+
+  <defs>
+  </defs>
+</svg>

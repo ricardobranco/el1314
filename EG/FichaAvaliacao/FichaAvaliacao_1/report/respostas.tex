@@ -1,7 +1,6 @@
 \section{Respostas}
-\subsection{Alínea A} % (fold)
 \label{sub:alinea_a}
-
+\textbf{a) Escreva uma frase válida da linguagem gerada pela GIC dada, mostrando a respectiva Árvore de Derivação.}\\
 Uma frase válida da linguagem gerada pela GIC dada no enunciado do problema é:
 
 \begin{verbatim}
@@ -31,9 +30,9 @@ Na figura ~\ref{fig:alinea_a} pode-se ver como é a árvore de derivação da fr
     \label{fig:alinea_a}
 \end{figure}
 
-\subsection{Alínea B} % (fold)
 \label{sub:alinea_b}
 
+\textbf{b) Altere a gramáatica de modo a permitir que cada livro tenha mais de um Autor.}\\
 De forma a premitir que um livro tenha mais de que um autor, foram feitas as seguintes alterações:
 \textbf{Antes}
 \begin{verbatim}
@@ -49,7 +48,7 @@ Autores     --> Autor
 
 \end{verbatim}
 
-Com esta nova grámatica, frases como a que seguem tornam-se válidas.
+Com esta nova gramática, frases como a que seguem tornam-se válidas.
 
 \begin{verbatim}
 [
@@ -70,8 +69,9 @@ Quanto a árvore de derivação, está é representada da seguinte maneira:
     \label{fig:alinea_b}
 \end{figure}
 
-\subsection{Alínea C} % (fold)
 \label{sub:alinea_c}
+
+\textbf{c) O par de produções p1/p2 define uma lista com recursividade à esquerda. Altere esse par para usarrecursividade à direita e mostre, através das árvores de derivação, a diferença entre ambos os esquemas iterativos.}\\
 
 De forma a permitir que o par de produções \textbf{p1/p2} definam uma lista com recursividade à direita, alterou-se a GIC da seguite forma:
 
@@ -80,7 +80,7 @@ Registos  --> Registo
             | Registo ',' Registos
 \end{verbatim}
 
-Essa alteração implicou mudanças na árvore de derivação. Usando a frase usada na Secção ~\ref{sub:alinea_a} obteve-se a árvore de derivação representada na figura ~\ref{fig:alinea_a} como sendo exemplo de uma lista com recursividade à esquerda. Numa lista com recursividade à direita a árvore de derivação seria a seguinte:
+Essa alteração implicou mudanças na árvore de derivação. Usando a frase usada na  \hyperref[sub:alinea_a]{questão A} obteve-se a árvore de derivação representada na figura ~\ref{fig:alinea_a} como sendo exemplo de uma lista com recursividade à esquerda. Numa lista com recursividade à direita a árvore de derivação seria a seguinte:
 
 \begin{figure}[!h]
 	\centering
@@ -88,19 +88,17 @@ Essa alteração implicou mudanças na árvore de derivação. Usando a frase us
     \caption{Árvore de Derivação para listas com recursividade à direita}
     \label{fig:alinea_c}
 \end{figure}
-Comparando as duas árvores conclui-se que no caso da grámatica constituida por listas com recursividade à esquerda, a árvore de derivação tende a crescer para o lado esquerdo. No caso da grámatica constituida por listas com recursividade à direita, a árvore de derivação tende a crescer para o lado direito.
-
-\subsection{Alínea D} % (fold)
+Comparando as duas árvores conclui-se que no caso da gramática constituida por listas com recursividade à esquerda, a árvore de derivação tende a crescer para o lado esquerdo. No caso da gramática constituida por listas com recursividade à direita, a árvore de derivação tende a crescer para o lado direito.
+\newpage
+\textbf{d) Escreva as funções de um parser RD-puro (recursivo-descendente) para reconhecer o Símbolo Existencias e seus derivados, isto é, os símbolos que apareçam no lado direito das produções.}\\
 \label{sub:alinea_d}
 
 No Apêndice ~\ref{sec:parser_recursivo_descedente} estão as funções respetivas a um paser RD-puro(recursivo-descendente), com o objetivo de reconhecer o Símbolo \emph{Existencias}.
 
 No caso dos simbolos não-terminais usa-se a função \emph{void rec\_N(s)}, em que \emph{N} é o símbolo não-terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objetivo é verificar para cada produção \emph{p} de \emph{N} se \emph{s} faz parte do \emph{lookahead} de \emph{p}(\emph{la(p)}), caso não acontece é retornado um erro.
 No caso dos simbolo terminais usa-se a função \emph{void rec\_T(s)}, em que \emph{T} é o simbolo terminal que se quer reconhecer e \emph{s} o próximo simbolo a analisar. O objetivo é verifcar \emph{s} é igual ao simbolo terminal \emph{T} ou se faz \emph{match} com \emph{T} no caso dos simbolos terminais variáveis \emph{match\_T(s)}. Caso \emph{s} seja reconhecido, este passa a ter o valor do próximo símbolo a analisar, caso contrário é retornado um erro.
-
-
-
-\subsection{Alínea E} % (fold)
+\\
+\textbf{e) Construa o estado inicial do autómato LR(0) para gramática dada e os estados que dele saem.}\\
 \label{sub:alinea_e}
 
 O estado inical do autómato LR(0) para a GIC apresentada é:
@@ -114,7 +112,9 @@ O estado inical do autómato LR(0) para a GIC apresentada é:
 [Registo -> . '[' REGISTO Descricao EXISTENCIAS Existencias ']']
 \end{verbatim}
 
-\subsection{Alínea F} % (fold)
+\textbf{f) No sentido de começar a avaliar a qualidade desta gramática calcule algumas métricas de tamanho
+sobre ela: número de símbolos de cada tipo; número de produções; número de produções unitárias;
+comprimento médio e máximo dos lados direitos das produções; ...}\\
 \label{sub:alinea_f}
 
 Na tabela ~\ref{table:alinea_g} monstra-se as medidas que permitem avaliar a GIC apresentada.
@@ -149,10 +149,25 @@ Legenda:
 	\item[\textsection RHS] Comprimento médio do lado direito das produções (\emph{Right Hand Size})\\
 	\item[\textsection RHS-Max] Comprimento máximo do lado direito das produções\\
 \end{description}
-
-\subsection{Alínea G} % (fold)
+\textbf{g) Transforme a GIC dada numa gramática de atributos, GA, reconhecível pelo AnTLR, para:
+\begin{itemize}
+\item calcular e imprimir: o número de registos; e o número de livros existentes para cada registo.
+\item calcular o número total de livros com estado PERMANENTE.
+\item identificar e listar por ordem alfabética os títulos dos livros.
+\item verificar se não existem registos com a mesma referência.
+\end{itemize}}
 \label{sub:alinea_g}
-No Apêndice ~\ref{sec:gramatica_atributos} está presente a grámatica de atributos reconhecidas. Respectivamente à mesma gramática optou-se por criar duas classes auxiliares \emph{Registo} e \emph{Registos} com o objetivo de tornar a grámatica mais legível. Os atributos herdados foram escritos na forma \emph{in\_*} e os atributos sintetizados foram escritos na forma \emph{out\_*}.
-%falar do visual lisa
+No Apêndice ~\ref{sec:gramatica_atributos} está presente a gramática de atributos reconhecida pelo AnTLR. Respectivamente à mesma gramática optou-se por criar duas classes auxiliares \emph{Registo} e \emph{Registos} com o objetivo de tornar a gramática mais legível. Os atributos herdados foram escritos na forma \emph{in\_*} e os atributos sintetizados foram escritos na forma \emph{out\_*}.\\
+Também recorreu-se ao VisualLisa para representar a mesma gramática sob forma visual, tal como se pode ver no Apêndice ~\ref{sec_gramatica_atributos_visual}.
+
+\begin{figure}[!h]
+	\centering
+    \includegraphics[width=0.9\textwidth]{./imagens/VisualLisa/__Biblioteca.png}
+    \caption{Produções da Gramática}
+    \label{fig:Producoes}
+\end{figure}
+
+
+
 
 
